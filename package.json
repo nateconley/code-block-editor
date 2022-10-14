@@ -1,0 +1,47 @@
+{
+  "name": "code-block-editor",
+  "version": "1.0.0",
+  "description": "",
+  "source": [
+    "./src/css/block.scss",
+    "./src/js/block/index.js",
+    "./node_modules/codemirror/theme/material.css",
+    "./node_modules/codemirror/theme/xq-light.css",
+    "./src/css/prism/line-numbers.scss",
+    "./src/js/prism/javascript.js",
+    "./src/js/prism/json.js",
+    "./src/js/prism/line-numbers.js",
+    "./src/js/prism/markdown.js",
+    "./src/js/prism/markup-templating.js",
+    "./src/js/prism/php.js",
+    "./src/js/prism/prism.js",
+    "./src/js/prism/scss.js",
+    "./src/js/prism/shell-session.js",
+    "./src/css/prism/prism.scss",
+    "./src/css/prism/coy.scss",
+    "./src/css/prism/dark.scss",
+    "./src/css/prism/funky.scss",
+    "./src/css/prism/okaidia.scss",
+    "./src/css/prism/solarizedlight.scss",
+    "./src/css/prism/tomorrow.scss",
+    "./src/css/prism/twilight.scss"
+  ],
+  "scripts": {
+    "build": "parcel build --no-source-maps",
+    "start": "parcel watch --no-source-maps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPL2+",
+  "dependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-react": "^7.18.6",
+    "codemirror": "^5.60.0",
+    "parcel": "^2.7.0",
+    "prismjs": "^1.29.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "process": "^0.11.10"
+  }
+}
